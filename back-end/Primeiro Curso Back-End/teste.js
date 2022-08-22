@@ -24,4 +24,6 @@ console.log(lifesound * primeiroNumero)
 
 // Isso vai retornar no painel um "NaN"
 
-
+var a = 10
+var b = 0
+console.log(a/b) // Infinity
