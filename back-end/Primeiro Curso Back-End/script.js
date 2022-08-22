@@ -1,4 +1,4 @@
-//var
+/*var
 
 var altura = 5;
 var comprimento = 7;
@@ -22,3 +22,8 @@ console.log(area1)
 let numeroDeCelular = 988888888
 
 console.log("seu numero é:", String(numeroDeCelular))
+*/
+
+let minhaVar = 876;
+minhaVar = "texto";
+minhaVar = true
