@@ -20,7 +20,7 @@ console.log(nomeIdade("Lucas", 19))
 
 // function de multiplicação
 
-function multiplica(numero1, numero2){
+function multiplica(numero1 = 1, numero2 = 1){
     return numero1 * numero2;
 }
 
