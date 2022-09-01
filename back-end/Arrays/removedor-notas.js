@@ -1,4 +1,11 @@
 const notas = [10, 7, 8, 5, 10]
+
+
+// com o notas.pop() vazio, sem parametro
+// o js entende que é para tirar o ultimo elemento
+// do array
+
+
 notas.pop()
 
 console.log(notas)
