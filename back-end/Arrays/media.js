@@ -3,6 +3,10 @@
 //let nota3 = 8
 //let nota4 = 7.5
 
+//primeiro número de indices de arrays é sempre ZERO = 0
+// isso claro, pois são números naturais, então é de 0, 1, 2, 3
+
+
 
 const notas = [10, 6.5, 8, 7.5]
 
