@@ -3,6 +3,7 @@ const nomes = ['João', 'Juliana', 'Anna', 'Caio', 'Lara',
 'Paulo', 'Bia', 'Vivian', 'Isabela', 'Vinícios', 'Renan', 
 'Renata', 'Daisy', 'Camilo' ]
 
+console.log("tamano da array:", nomes.length)
 const sala1 = nomes.slice(0,nomes.length/2)
 const sala2 = nomes.slice(nomes.length/2)
 
