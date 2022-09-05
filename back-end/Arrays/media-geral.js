@@ -10,3 +10,14 @@ function mediaSala(notasDaSala){
 console.log(`Media da sala de JavaScript ${mediaSala(salaJS)}`)
 console.log(`Media da sala de Java ${mediaSala(salaJava)}`)
 console.log(`Media da sala de Python ${mediaSala(salaPython)}`)
+
+
+//Fazendo o primeiro arquivo "media.js" só que dessa vez usando
+// .reduce, mostrando o quão rápido e prático é a evolução
+// no JavaScript
+
+const notas = [10,6.5,8,7]
+
+const media = notas.reduce((acum, atual) => atual + acum, 0) /notas.length
+
+console.log(media)
